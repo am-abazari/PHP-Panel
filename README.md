@@ -7,7 +7,7 @@ Login / Signup / User Dashboard / Admin Panel
 
 Simple and optimized PHP Panel It includes: 
 
-
+ 
 - [x] PHP 8.1
 - [x] ECMAScript 6+
 - [x] MYSQL - PDO
