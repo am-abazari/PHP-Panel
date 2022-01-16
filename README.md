@@ -1,6 +1,6 @@
 # PHP Panel
 
-A Login / Signup / User Dashboard / Admin Panel
+Login / Signup / User Dashboard / Admin Panel
 
 
 <img width="800" alt="React Musci Player Screenshot" src="./img.png"/>
