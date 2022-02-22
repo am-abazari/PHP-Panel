@@ -14,7 +14,7 @@ Simple and optimized PHP Panel It includes:
 
 ## Start
 
-1. `git clone https://github.com/AmirhosseinAbazari/PHP-Panel.git`
+1. `git clone https://github.com/am-abazari/PHP-Panel.git`
 2. Run `Wampserver64` or `XAMPP`
 3. Import `formcms.sql` into Database
 4. Open [http://localhost/PHP/Panel/MainPage.php](http://localhost/PHP/Panel/MainPage.php)
