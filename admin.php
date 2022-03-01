@@ -32,7 +32,7 @@
                         if ($result->rowCount()) {
                             $row = $result->fetchAll(PDO::FETCH_ASSOC);
                             echo(count($row));
-                        }
+                        }else echo "0";
                         ?>
 
                     </p>
@@ -48,7 +48,7 @@
                         if ($result->rowCount()) {
                             $row = $result->fetchAll(PDO::FETCH_ASSOC);
                             echo(count($row));
-                        }
+                        }else echo "0";
                         ?>
                     </p>
                 </div>
@@ -63,7 +63,7 @@
                         if ($result->rowCount()) {
                             $row = $result->fetchAll(PDO::FETCH_ASSOC);
                             echo(count($row));
-                        }
+                        }else echo "0";
                         ?>
                     </p>
                 </div>
@@ -80,7 +80,7 @@
                         if ($result->rowCount()) {
                             $row = $result->fetchAll(PDO::FETCH_ASSOC);
                             echo(count($row));
-                        }
+                        }else echo "0";
                         ?>
                     </p>
                 </div>
@@ -95,7 +95,7 @@
                         if ($result->rowCount()) {
                             $row = $result->fetchAll(PDO::FETCH_ASSOC);
                             echo(count($row));
-                        }
+                        }else echo "0";
                         ?>
                     </p>
                 </div>
@@ -110,7 +110,7 @@
                         if ($result->rowCount()) {
                             $row = $result->fetchAll(PDO::FETCH_ASSOC);
                             echo(count($row));
-                        }
+                        }else echo "0";
                         ?>
                     </p>
                 </div>
@@ -140,7 +140,7 @@
                                 }
                             }
                             echo $counter ;
-                        }
+                        }else echo "0";
                         ?>
                     </p>
                 </div>
@@ -166,7 +166,7 @@
                                 }
                             }
                             echo $counter ;
-                        }
+                        }else echo "0";
                         ?>
                     </p>
                 </div>
@@ -192,7 +192,7 @@
                                     $counter_login++;
                                 }
                             }
-                        }
+                        }else echo "0";
                         $sql_logout = "SELECT `time` FROM $tbl_log WHERE `status`=3";
                         $result_logout = $connect->query($sql_logout);
                         $result_logout->execute();
@@ -208,7 +208,7 @@
                                     $counter_logout++;
                                 }
                             }
-                        }
+                        }else echo "0";
                         echo ($counter_login - $counter_logout) ;
                         ?>
                     </p>
